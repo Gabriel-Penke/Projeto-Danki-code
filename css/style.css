@@ -81,3 +81,48 @@ section.main-bg p{
     margin-top: 15px;
 }
 
+section.diferenciais{
+    padding: 30px 0;
+    text-align: center;
+}
+.line-text{
+    color: #44D4C5;
+    display: inline-block;
+    position: relative;
+}
+.line-text div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 3px;
+    background: #44D4C5;
+}
+.line-text h2{
+    font-weight: normal;
+    font-size: 27px;
+}
+.icone-diferenciais{
+    margin-top: 30px;
+}
+.box-icone-single{
+    float: left;
+    width: 33.3%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.box-icone-single h2{
+    color: rgb(97, 72, 26);
+    font-size: 40px;
+}
+.box-icone-single p{
+    color: #646464;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+@media screen and(max-width: 768px){
+    .box-icone-single{
+        width: 100%;
+    }
+}
