@@ -8,6 +8,21 @@
 header{
     padding: 8px 0;
 }
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.w33{
+    float: left;
+    width: 33.3%;
+}
+
+.center{
+    text-align: center;
+}
+
 .conteiner{
     max-width: 1024px;  
     margin: 0 auto;
@@ -172,7 +187,97 @@ section.sobre-equipe > .conteiner{
     font-weight: lighter;
 }
 
+section.inscricao{
+    background: rgb(68, 211, 197);
+    padding: 20px 0;
+}
+
+h2.inscricao-texto{
+    font-weight: normal;
+    color: white;
+}
+
+.inscricao-form input[type=text]{
+    width: calc(100% - 120px);
+    height: 40px;
+    background: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+.inscricao-form input[type=submit]{
+    width: 120px;
+    height: 40px;
+    background:#106c64;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    display: inline-block;
+}
+
+section.cards{
+    padding: 30px 0;
+}
+.card-single{
+    width: 33.3%;
+    float: left;
+    padding: 50px;
+}
+.card-single img{
+    width: 100%;
+}
+.card-single h3{
+    font-weight: normal;
+    font-size: 19px;
+}
+.card-single p{
+    font-weight: lighter;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+footer.footer1{
+    background: #52aaa7;
+    padding: 20px 0;
+    color: white;
+}
+
+footer.footer1 h3{
+    font-weight: normal;
+    font-size: 23px;
+}
+
+footer.footer1 p{
+    margin-top: 8px;
+    font-weight: lighter;
+}
+
+footer.footer1 a{
+    display: block;
+    color: white;
+}
+
+div.group-icons a{
+    font-size: 18px;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+footer.footer2{
+    padding: 15px 0;
+    background: #237a70;
+    text-align: center;
+    color: white;
+}
+
 @media screen and(max-width: 768px){
+    .card-single{width: 100%;}
+    footer.footer1{
+        text-align: center;
+    }
+    .w50, .w33{width: 100%; margin-bottom: 20px;}
     .box-icone-single{
         width: 100%;
     }
@@ -185,3 +290,8 @@ section.sobre-equipe > .conteiner{
     }
 }
 
+@media screen and(max-width: 500px){
+    .card-single{
+        padding: 10px;
+    }
+}
