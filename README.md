@@ -1,2 +1,2 @@
 # Projeto Danki code
- Site criado no curso web design da Danki Code
+ Site criado no curso web design express da Danki Code.
