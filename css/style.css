@@ -302,7 +302,7 @@ footer.footer2{
     color: white;
 }
 
-@media screen and(max-width: 768px){
+@media (max-width: 768px){
     .card-single{width: 100%;}
     footer.footer1{
         text-align: center;
@@ -320,7 +320,7 @@ footer.footer2{
     }
 }
 
-@media screen and(max-width: 500px){
+@media (max-width: 500px){
     nav.menu-desktop{display: none;}
     nav.menu-mobile{
         display: block;
