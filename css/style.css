@@ -385,6 +385,51 @@ section.parallax p{
     margin-top: 10px;
 }
 
+/*Equipe*/
+
+section.equipe{
+    padding: 40px 0;
+}
+
+div.equipe-circles{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.equipe-circle-single{
+    padding: 0 20px;
+    text-align: center;
+    width: 33.3%;
+}
+.equipe-circle-single h3{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.equipe-circle-single p{
+    font-weight: lighter;
+}
+
+.avatar-single{
+    position: relative;
+    width: 60%;
+    padding-top: 60%;
+    margin: 0 auto;
+    background: #ccc;
+    background-size: 100% 100%;
+
+}
+
+.avatar-single-conteiner{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 @media (max-width: 768px){
     .card-single{width: 100%;}
     footer.footer1{
@@ -406,6 +451,11 @@ section.parallax p{
 }
 
 @media (max-width: 500px){
+    .equipe-circle-single{
+        width: 100%;
+        padding: 0 8px;
+        margin-bottom: 30px;
+    }
     nav.menu-desktop{display: none;}
     nav.menu-mobile{
         display: block;
